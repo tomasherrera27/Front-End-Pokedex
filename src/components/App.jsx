@@ -3,6 +3,7 @@ import "../styles/App.css"
 import Pokedex from './Pokedex';
 
 
+// AREA DE TRABAJO --> Reemplazar por el JSON
 const pokedex = [
   {
     "id": 1,
@@ -20,16 +21,21 @@ const pokedex = [
       "Poison"
     ]
   }]
+// AREA DE TRABAJO -----------------------------------
+
 
 export default class App extends Component {
-  
+
+  // AREA DE TRABAJO --> Usar estructura de Class Component
   pokemon = [pokedex[0].name, pokedex[0].id, pokedex[0].type];
   pokemons = pokedex;
+  // AREA DE TRABAJO -------------------------------------------
 
 
   update(pokemon) {
     console.log(pokemon);
     // En esta funcion se deberia actualizar el pokemon visible
+    // No olvidemos que si es funcion debemos bindearla... como podemos evitar usar el bind?
   }
 
   getPokemon = () => {
@@ -51,6 +57,10 @@ export default class App extends Component {
   }
 
   render() {
+    /* AREA DE TRABAJO
+    Pueden usar desestructuracion o directamente modificar las variables this.pokemon por this.state...
+    */
+
     return (
       <div style={{display:"flex"}}>
       <div className="container">
