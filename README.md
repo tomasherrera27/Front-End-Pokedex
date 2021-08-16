@@ -14,6 +14,5 @@ En caso de haber terminado, te invito a realizar dos tareas adicionales:
 2) Podemos revisar que el `json` tiene mas datos, te invito a utilizarlo modificando el codigo.
 
 ### Pasos para correr el proyecto
-
 Relizar primero `npm install`
 Relizar segundo `npm start`
