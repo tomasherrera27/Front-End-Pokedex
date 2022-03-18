@@ -1,15 +1,17 @@
 export const pokeContainer = {
-    width: "50%",
+    width: "100%",
+    height: "1000px",
     background: "red",
     textAlign: "center",
     display: "flex",
     flexDirection: "column",
-    alignItems: "center"
+    alignItems: "center",
 }
 
 export const pokeList = {
     border:"3px solid black",
     display: "flex", 
+    alignItems: "center",
     flexWrap: "wrap", 
     justifyContent: "space-around", 
     width: "500px"
